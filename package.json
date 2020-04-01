@@ -1,0 +1,33 @@
+{
+  "name": "react-typed.js",
+  "version": "1.0.0",
+  "description": "A React wrapper for typed.js that allows you to pass all typed.js options as props.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ScottEnock/react-typed.js.git"
+  },
+  "author": "Scott Rowland Enock",
+  "keywords": [
+    "react",
+    "typed.js",
+    "react typed wrapper",
+    "react typed.js wrapper",
+    "react typed.js",
+    "react typed"
+  ],
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ScottEnock/react-typed.js/issues"
+  },
+  "homepage": "https://github.com/ScottEnock/react-typed.js#readme",
+  "dependencies": {
+    "typed.js": "^2.0.11"
+  },
+  "peerDependencies": {
+    "react": "^16.13.1"
+  }
+}
