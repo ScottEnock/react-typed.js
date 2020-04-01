@@ -1,10 +1,11 @@
 {
   "name": "react-typed.js",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "A React wrapper for typed.js that allows you to pass all typed.js options as props.",
-  "main": "index.js",
+  "main": "./lib/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "webpack",
+    "npm-publish": "webpack && npm publish"
   },
   "repository": {
     "type": "git",
@@ -28,6 +29,20 @@
     "typed.js": "^2.0.11"
   },
   "peerDependencies": {
-    "react": "^16.13.1"
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
+  },
+  "devDependencies": {
+    "babel-core": "^6.21.0",
+    "babel-loader": "^7.1.4",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-react": "^6.16.0",
+    "babel-preset-stage-0": "^6.24.1",
+    "path": "^0.12.7",
+    "prop-types": "^15.6.0",
+    "react": "^16.0.0",
+    "react-dom": "^16.0.0",
+    "webpack": "^4.5.0",
+    "webpack-cli": "^3.2.1"
   }
 }
